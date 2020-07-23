@@ -1,7 +1,11 @@
 //////////////////////////////////////////////////////////////Chapter 38-42//////////////////////////////////////////////////////////
-
 /*
 //task1//
+var a=prompt("Enter first value");
+var b=prompt("Enter second value");
+var result = Math.pow(a, b);
+    
+document.write("The answer of " + a + " raise to " + b + " is " + result);
 */
 
 /*
@@ -10,7 +14,16 @@
 
 /*
 //task3//
+var a=prompt("Enter first value");
+var b=prompt("Enter second value");
+var c=prompt("Enter third value");
+var s = (a + b + c)/2;
+var area =  Math.sqrt(s*((s-a)*(s-b)*(s-c)));
+document.write("Area of Triangle is " + area);
 */
+    
+    
+
 
 /*
 //task4//
