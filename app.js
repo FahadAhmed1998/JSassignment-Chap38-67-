@@ -102,19 +102,21 @@ function myFunction() {
 
 /*
 //task4//
-funtion setNewImage(){
-    document.getElementById("Img1").src="nokia.jpg";
-}
-    
-
-funtion setOldImage(){
-    document.getElementById("Img1").src="oppo.jpg";
-}
+function setNewImage(){
+    document.getElementById("Img1").src = "nokia.jpg";
+       }
+      function setOldImage(){
+       document.getElementById("Img1").src = "oppo.jpg";
+       }
 */
+
 
 /*
 //task5//
 */
+ 
+
+
 
 //////////////////////////////////////////////////////////////Chapter 49-52//////////////////////////////////////////////////////////
 
@@ -138,7 +140,13 @@ funtion setOldImage(){
 
 /*
 //task2//
-*/
+function zoomIn() {
+  document.getElementById("myP").style.fontSize ="";
+}
+function zoomOut() {
+   document.getElementById("myP").style.fontSize ="10px";
+ }
+ */
 
 //////////////////////////////////////////////////////////////Chapter 59-67//////////////////////////////////////////////////////////
 
