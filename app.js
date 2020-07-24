@@ -10,6 +10,26 @@ document.write("The answer of " + a + " raise to " + b + " is " + result);
 
 /*
 //task2//
+var year=prompt("Enter year");
+function main() {
+   
+   if (year % 400 == 0) {
+      alert("The given year is a leap year." + year);
+   }
+   
+   else if (year % 100 == 0) {
+    alert("The given year is not a leap year." + year);
+   }
+  
+   else if (year % 4 == 0) {
+    alert("The given year is a leap year." + year);
+   }
+  
+   else {
+    alert("The given year is not a leap year." + year);
+   }
+}
+alert(main());
 */
 
 /*
@@ -25,9 +45,12 @@ document.write("Area of Triangle is " + area);
     
 
 
-/*
+
 //task4//
-*/
+
+
+
+
 
 /*
 //task5//
@@ -58,18 +81,35 @@ document.write("Area of Triangle is " + area);
 
 /*
 //task1//
+function main(){
+alert("WELCOME TO MY WEBSITE");
+}
 */
 
 /*
 //task2//
+function show(){
+alert("Thanks for purchasing a phone from us");
+}
 */
 
 /*
 //task3//
+function myFunction() {
+            document.getElementById("myTable").deleteRow(1);
+        }
 */
 
 /*
 //task4//
+funtion setNewImage(){
+    document.getElementById("Img1").src="nokia.jpg";
+}
+    
+
+funtion setOldImage(){
+    document.getElementById("Img1").src="oppo.jpg";
+}
 */
 
 /*
